@@ -69,7 +69,6 @@ export default function ReceivedRequestsPage() {
 
   targetRequest.acceptedUsers = updatedAcceptedUsers;
 
-
   const totalAccepted = updatedAcceptedUsers.length;
 
   if (totalAccepted % 3 === 0) {
@@ -91,8 +90,6 @@ export default function ReceivedRequestsPage() {
     theme: "colored"
   });
 };
-
-
 
   const requesterInfo = (phone) => {
     const reqUser = users.find(u => u.phone === phone);
