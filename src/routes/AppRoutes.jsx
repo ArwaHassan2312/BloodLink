@@ -12,9 +12,9 @@ import ReceivedRequestsPage from "../pages/ReceivedRequestsPage";
 import AcceptedUsersPage from "../pages/AcceptedUsersPage";
 import NotFound from "../pages/NotFound";
 import ProfilePage from "../pages/Profile";
-import NavbarbeforeLogin from "../common/NavbarbeforeLogin";
-import NavbarAfterLogin from "../common/NavbarAfterLogin";
-import ScrollToTop from "../common/ScrollToTop"; 
+import NavbarbeforeLogin from "../components/common/navbar/NavbarbeforeLogin";
+import NavbarAfterLogin from "../components/common/navbar/NavbarAfterLogin";
+import ScrollToTop from "../components/common/ScrollToTop"; 
 
 function RootLayout() {
   const { isAuthenticated } = useAppSelector((state) => state.user);

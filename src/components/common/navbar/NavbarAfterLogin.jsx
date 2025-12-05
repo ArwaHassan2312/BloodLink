@@ -3,9 +3,9 @@ import { useState } from "react";
 import { Navbar, Nav, Container, Dropdown } from "react-bootstrap";
 import { Menu, User } from "lucide-react";
 import { NavLink, Link, useNavigate } from "react-router-dom";
-import { useAppSelector, useAppDispatch } from "../app/hooks";
-import { clearUser } from "../features/user/userSlice";
-import BloodLinkGif from "../assets/images/blood-ezgif.com-crop.gif";
+import { useAppSelector, useAppDispatch } from "../../../app/hooks";
+import { clearUser } from "../../../features/user/userSlice";
+import BloodLinkGif from "../../../assets/images/blood-ezgif.com-crop.gif";
 
 export default function NavbarAfterLogin() {
   const [expanded, setExpanded] = useState(false);

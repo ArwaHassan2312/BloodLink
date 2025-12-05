@@ -1,5 +1,5 @@
-import NavbarAfterLogin from "../common/NavbarAfterLogin"
-import Footer from "../common/Footer"
+import NavbarAfterLogin from '../components/common/navbar/NavbarAfterLogin';
+import Footer from '../components/common/footer/Footer';
 import Profile from "../features/user/components/ProfilePage.jsx"
 
 function ProfilePage() {

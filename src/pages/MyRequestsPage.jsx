@@ -1,7 +1,7 @@
 import React from 'react';
 import MyRequests from '../features/requests/MyRequests';
-import NavbarAfterLogin from '../common/NavbarAfterLogin';
-import Footer from '../common/Footer';
+import NavbarAfterLogin from '../components/common/navbar/NavbarAfterLogin';
+import Footer from '../components/common/footer/Footer';
 
 export default function MyRequestsPage() {
   return (

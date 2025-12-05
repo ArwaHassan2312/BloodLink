@@ -5,9 +5,9 @@ import Statistics from "../homaPageComponents/Statistics";
 import Eligibility from "../homaPageComponents/Eligibility";
 import SuccessStories from "../homaPageComponents/SuccessStories";
 import Contact from "../homaPageComponents/Contact";
-import Footer from "../common/Footer";
-import NavbarAfterLogin from "../common/NavbarAfterLogin";
-import NavbarBeforeLogin from "../common/NavbarbeforeLogin";
+import Footer from '../components/common/footer/Footer';
+import NavbarAfterLogin from '../components/common/navbar/NavbarAfterLogin';
+import NavbarBeforeLogin from "../components/common/navbar/NavbarbeforeLogin";
 import { useAppSelector } from "../app/hooks";
 
 function Home() {

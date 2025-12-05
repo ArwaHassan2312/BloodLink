@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Menu } from "lucide-react";
 import { Navbar, Nav, Container, Button } from "react-bootstrap";
 import { Link, useNavigate, useLocation } from "react-router-dom";
-import BloodLinkGif from "../assets/images/blood-ezgif.com-crop.gif";
+import BloodLinkGif from "../../../assets/images/blood-ezgif.com-crop.gif";
 
 export default function NavbarbeforeLogin() {
   const navigate = useNavigate();

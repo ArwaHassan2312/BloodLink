@@ -1,6 +1,6 @@
 import Register from "../features/auth/components/RegisterForm"
-import NavbarbeforeLogin from "../common/NavbarbeforeLogin"
-import Footer from "../common/Footer"
+import NavbarbeforeLogin from "../components/common/navbar/NavbarbeforeLogin";
+import Footer from '../components/common/footer/Footer';
 
 export default function RegisterPage() {
   return (
